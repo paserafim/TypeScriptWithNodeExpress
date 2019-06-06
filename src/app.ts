@@ -4,9 +4,9 @@ const app:Application = express();
 
 const add = (a: number, b: number): number => a + b;
 
-app.get('/', (req: Request, res: Response, nexrt: NextFunction) => {
-  console.log(add(5,6));
-  res.send('Hello');
+app.get('/', (req: Request, res: Response, next: NextFunction) => {
+  console.log(add(5,20));
+  res.send('Hello paulo');
 });
 
 app.listen(5000, () => console.log('Server running...'));
