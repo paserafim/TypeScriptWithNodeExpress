@@ -2,5 +2,4 @@
 
 ## Working with typescript, node and express. Testing TypeScript capabilities.
 
-Verify how types can help avoid erros during your developing stage.
-
+Verify how **types** can help avoid errors during your developing stage.
